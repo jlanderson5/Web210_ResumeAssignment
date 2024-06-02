@@ -1,0 +1,77 @@
+/*
+COLOR PALETTE
+
+Sand Dollar #E5DDC8
+Teal #01949A
+Navy Blue #004369
+Red #DB1F48
+*/
+
+/* GLOBAL STYLES
+-------------------------------------*/
+body {
+    background-color: antiquewhite;
+}
+
+/* links */
+a {
+    color: #01949A;
+}
+a:hover {
+    color: #DB1F48;
+    text-decoration: none;
+}
+footer a {
+    color: #01949A;
+}
+footer a:hover {
+    color: #E5DDC8;
+    text-decoration: none;
+}
+btn {
+    background: #01949A;
+    color: #E5DDC8;
+    text-decoration: none;
+}
+/* HOME
+-------------------------------------*/
+.home {
+    background: url(../images/sharon-mccutcheon-unsplash.jpg) no-repeat;
+    background-size: cover;
+}
+.home .content-wrapper {
+    background: rgb(255 255 255 / 0.5);
+
+}
+header h2 {
+    margin-left: 50px;
+}
+header p {
+    text-align: left;
+    margin-right: 250px;
+    margin-left: 100px;
+
+}
+/* RESUME
+-------------------------------------*/
+
+/* PROFILE
+------------------------------------*/
+
+/* PROJECTS
+-------------------------------------*/
+
+/* WORK EXPERIENCE
+-------------------------------------*/
+
+/* EDUCATION
+-------------------------------------*/
+
+/*FOOTER
+------------------------------------*/
+footer {
+    background: #004369; 
+    color: #E5DDC8
+}
+
+

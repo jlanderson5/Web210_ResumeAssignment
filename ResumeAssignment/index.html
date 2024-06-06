@@ -1,86 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jessica Anderson | Aspiring Web/UX Designer and Content Creator</title>
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body class="home">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body class="home">
     <main>
-      <!-- ***********************  ABOUT / PROFILE  *********************** -->
-    <div class="content-wrapper">
-      <header>
-        <h1>Jessica Anderson</h1>
-        <h2>Aspiring Web/UX Designer and Content Creator</h2>
+        <!-- About / Profile -->
+        <div class="content-wrapper">
+            <header>
+                <div class="header-content">
+                    <div class="text-content">
+                        <h1>Jessica Anderson</h1>
+                        <h2>Aspiring Web/UX Designer and Content Creator</h2>
+                        <p>As an aspiring Web/UX designer and content creator, I thrive on the thrill of tackling new challenges and immersing myself in the creative process. Balancing life as a devoted wife and mother, I bring a unique perspective to my work, combining organizational skills and a keen eye for detail. My passion lies in crafting intuitive, user-friendly designs that not only meet client needs but also create memorable digital experiences. I am dedicated to continually learning and evolving in this dynamic field, driven by a love for innovation and a commitment to excellence.</p>
+                    </div>
+                    <div class="image-content">
+                        <img src="/images/headshot.png" alt="Jessica Anderson Headshot" class="headshot">
+                    </div>
+                </div>
+            </header>
+        </div>
 
-        <p>As an aspiring Web/UX designer and content creator, I thrive on the thrill of tackling new challenges and immersing myself in the creative process. Balancing life as a devoted wife and mother, I bring a unique perspective to my work, combining organizational skills and a keen eye for detail. My passion lies in crafting intuitive, user-friendly designs that not only meet client needs but also create memorable digital experiences. I am dedicated to continually learning and evolving in this dynamic field, driven by a love for innovation and a commitment to excellence.</p>
-        <p>Add another paragraph if needed.</p>
-      </header>
-
-      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section>
-        <h2>Featured Projects</h2>
-        <p>View selected projects below. More information can be found at <a href="http://jessicaanderson.com">jessicaanderson.com</a>.</p>
-
-        <!-- Copy the whole <section> block to add more projects. -->
-        <section>
-          <h3>Project Name</h3>
-          <img src="project-thumbnail.png" alt="description of image">
-          <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
-          <a href="#" target="_blank">View project / case study</a>
+        <!-- Projects / Portfolio -->
+        <section class="projects">
+            <h2>Featured Projects</h2>
+            <p>View selected projects below. More information can be found at <a href="http://jessicaanderson.com">jessicaanderson.com</a>.</p>
+            <div class="project-list">
+                <div class="project">
+                    <h3>Project Name</h3>
+                    <img src="project-thumbnail-placeholder.png" alt="Project Screenshot" class="project-screenshot">
+                    <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
+                    <a href="#" target="_blank">View project / case study</a>
+                </div>
+                <!-- Add more projects here by copying the div with class 'project' -->
+            </div>
         </section>
-        <!-- End of Project block. -->
-      </section>
 
-      <!-- ***********************  WORK EXPERIENCE  *********************** -->
-      <section>
-        <h2>Work Experience</h2>
-        <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p>
-
-        <!-- Copy this whole <section> block to add more jobs. -->
-        <section>
-          <h3>Job title</h3>
-          <p>Company Name</p>
-          <p>Date at job</p>
-          <p>Job summary goes here. Add as many paragraphs as you need.</p>
-          <p>Optional list:</p>
-          <ul>
-            <li>Delete this list if you don't need it.</li>
-            <li>Created...</li>
-            <li>Lead...</li>
-            <li>Responsible for...</li>
-          </ul>
+        <!-- Work Experience -->
+        <section class="work-experience">
+            <h2>Work Experience</h2>
+            <div class="job-list">
+                <div class="job">
+                    <h3>Director of Operations</h3>
+                    <p>Retro Peddler</p>
+                    <p>2015-2024</p>
+                    <p>Job summary goes here. Add as many paragraphs as you need.</p>
+                    <ul>
+                        <li>Created...</li>
+                        <li>Lead...</li>
+                        <li>Responsible for...</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h3>Office Manager</h3>
+                    <p>Action Lighting & Sign Service - </p>
+                    <p>2010-2013</p>
+                    <p>Job summary goes here. Add as many paragraphs as you need.</p>
+                    <ul>
+                        <li>Created...</li>
+                        <li>Lead...</li>
+                        <li>Responsible for...</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h3>Lead Medical Billing Specialist | Coder/Transcriber</h3>
+                    <p>Nextcare | Cannon Family Medicine - Kannapolis, NC</p>
+                    <p>2003-2009</p>
+                    <p>Job summary goes here. Add as many paragraphs as you need.</p>
+                    <ul>
+                        <li>Created...</li>
+                        <li>Lead...</li>
+                        <li>Responsible for...</li>
+                    </ul>
+                </div>
+            </div>
         </section>
-        <!-- End of Job block. -->
-      </section>
 
-      <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-      <section>
-        <h2>Education</h2>
-
-        <!-- Copy this whole <section> block to add more schools. -->
-        <section>
-          <h3>School name - City</h3>
-          <p>Designation received or program name, year attended</p>
-          <p>Summary or accomplishments.</p>
+        <!-- Education & Certifications -->
+        <section class="education">
+            <h2>Education</h2>
+            <div class="education-list">
+                <div class="school">
+                    <h3>Mount Pleasant High School | Mount Pleasant, NC</h3>
+                    <p>Class of 2000 Honors Graduate</p>
+                </div>
+                <div class="school">
+                    <h3>Wake Technical Community College | Raleigh, NC</h3>
+                    <p>2023-2025 Associates Degree in Web & UX Design</p>
+                    <p></p>
+                </div>
+            </div>
         </section>
-        <!-- End of School block. -->
-      </section>
-    </div>
-      <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
-      <footer>
-        <h2>Let's Keep in Touch!</h2>
 
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <ul>
-          <li><a href="mailto:email@example.com">email@example.com</a></li>
-          <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
-          <li><a href="#" target="_blank">Twitter</a></li>
-          <li><a href="#" target="_blank">LinkedIn</a></li>
-          <li><a href="#" target="_blank">Facebook</a></li>
-        </ul>
-      </footer>
+        <!-- Contact Info / Social Media -->
+        <footer>
+            <h2>Let's Keep in Touch!</h2>
+            <ul class="socials">
+                <li><a href="mailto:email@example.com">jlanderson5@my.waketech.edu</a></li>
+                <li><a href="www.linkedin.com/in/jessica-anderson81" target="_blank"><img src="#" alt="My LinkedIn Page"></a></li>
+                <li><a href="#" target="_blank">Facebook</a></li>
+            </ul>
+        </footer>
     </main>
-  </body>
+</body>
 </html>

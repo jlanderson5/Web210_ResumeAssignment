@@ -1,77 +1,192 @@
 /*
 COLOR PALETTE
-
-Sand Dollar #E5DDC8
-Teal #01949A
-Navy Blue #004369
-Red #DB1F48
+Light Blue #ADD8E6
+Bright Pink #FF69B4
+Bright Yellow #FFFF00
+Bright Green #32CD32
 */
 
-/* GLOBAL STYLES
--------------------------------------*/
-body {
-    background-color: antiquewhite;
+/* GLOBAL STYLES */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
-/* links */
+body {
+    background-color: #ADD8E6;
+    font-family: "Signika", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Links */
 a {
-    color: #01949A;
+    color: #32CD32;
 }
 a:hover {
-    color: #DB1F48;
+    color: #FF69B4;
     text-decoration: none;
 }
-footer a {
-    color: #01949A;
-}
-footer a:hover {
-    color: #E5DDC8;
+
+.btn {
+    background: #32CD32;
+    color: #FFFF00;
     text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
-btn {
-    background: #01949A;
-    color: #E5DDC8;
-    text-decoration: none;
-}
-/* HOME
--------------------------------------*/
+
+/* Home */
 .home {
-    background: url(../images/sharon-mccutcheon-unsplash.jpg) no-repeat;
+    background: url(../images/background_image.png) no-repeat;
     background-size: cover;
 }
-.home .content-wrapper {
-    background: rgb(255 255 255 / 0.5);
 
+.home .content-wrapper {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
 }
-header h2 {
-    margin-left: 50px;
+
+/* Headers */
+h1 h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 3em;
+    color: #FF69B4;
+    text-align: left;
+}
+
+h2 {
+    font-size: 2em;
+    color: #004369;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: "Caveat", cursive;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #32CD32;
+}
+
+/* Profile Section */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-content {
+    flex: 1;
+    margin-right: 40px;
+}
+.image-content {
+    flex: 0 0 150px;
+}
+.headshot {
+    max-width: 100%;
+    border-radius: 50%;
 }
 header p {
-    text-align: left;
-    margin-right: 250px;
-    margin-left: 100px;
-
+    text-align: justify;
+    margin: 0 20px;
 }
-/* RESUME
--------------------------------------*/
 
-/* PROFILE
-------------------------------------*/
+/* Projects Section */
+.projects {
+    background-color: #FFFF00;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.projects h2 {
+    margin-bottom: 10px;
+}
+.project-list .project {
+    margin-bottom: 20px;
+}
+.project img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.project a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
 
-/* PROJECTS
--------------------------------------*/
+/* Work Experience Section */
+.work-experience {
+    background-color: #32CD32;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.work-experience h2 {
+    margin-bottom: 20px;
+}
+.job-list {
+    display: flex;
+    justify-content: space-between;
+}
+.job {
+    flex: 0 0 30%;
+    background: #FFF;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.job p {
+    margin: 5px 0;
+}
+.job ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
 
-/* WORK EXPERIENCE
--------------------------------------*/
+/* Education Section */
+.education {
+    background-color: #FF69B4;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.education h2 {
+    margin-bottom: 10px;
+}
+.education-list .school {
+    margin-bottom: 20px;
+}
 
-/* EDUCATION
--------------------------------------*/
-
-/*FOOTER
-------------------------------------*/
+/* Footer */
 footer {
-    background: #004369; 
-    color: #E5DDC8
+    background: #004369;
+    color: #E5DDC8;
+    padding: 20px;
+    text-align: center;
 }
-
-
+footer h2 {
+    margin: 0 0 10px 0;
+}
+.socials {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.socials li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.socials img {
+    width: 32px;
+}
